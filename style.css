@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #2B3844;
+    padding: 30px 0;
+}
+.row{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+.row h1{
+    color: white;
+}
+.row p{
+    color: white;
+}
+main{
+    background-color: #202C36;
+}
+main img{
+    margin-left: 80px;
+    
+}
+
+@media(max-width:1024px) {
+    .box{
+        background-color: aqua;
+        padding: 0 30px ;
+    }
+}
+@media(max-width:768px) {
+   .box {
+     background-color:red ;
+    padding: 0 35px;
+   }
+}
